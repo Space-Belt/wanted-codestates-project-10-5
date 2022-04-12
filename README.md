@@ -2,28 +2,40 @@
 
 ## 🌈 &nbsp; wanted-codestates-project-10-1
 
-### 📎 &nbsp; [과제링크]()
-
-<div align="center">
-<img width="300px" src=""/>
-</div>
+### 📎 &nbsp; [과제링크](https://xenodochial-goldwasser-50a9b3.netlify.app)
 
 <br />
 
 ### 🪄&nbsp; 기획 - [Figma](https://www.figma.com/file/a5bjAfNT7BuWpGPrmwJqJY/Untitled?node-id=0%3A1)
  
-#### 🎉 &nbsp; 기능
-- 
+<br /> 
+ 
+#### 🎉 &nbsp; 기능 구현 목록
 
-#### 👨‍🎨 &nbsp; 디자인
-- 
+#### 과제1
 
-### 😎 &nbsp; 기능 구현 목록
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/32476867/160280039-99bede39-0eef-46cd-8a94-aae28bdf172c.gif" />
+ <p>⬆️  검색어 키워드 입력에 따른 결과 페이지</p>
+ 
+ <img width="700px" src="https://user-images.githubusercontent.com/32476867/160280241-05ece958-7959-4c80-b650-1a81ad50784d.gif" />
+ <p>⬆️  상품코드 또는 이미지 URL 검색에 따른 결과 페이지</p>
+</div>
 
+- 입력되는 검색어에 따라 상품 데이터 카테고리별로 매핑해서 렌더링
+- 반응형으로 구현
+- PXL 로고 클릭시 메인페이지로 이동
+- More 버튼 클릭시 검색 결과 20개 추가로 보여주기
+- 한번 로딩된 데이터는 메모리에 캐시하고, 새로고침 시에는 http요청을 하지 말고 캐시된 데이터를 불러와 렌더링
 
-#### 
+#### 과제2
+<div align="center">
+<img width="500px" src="https://user-images.githubusercontent.com/87487161/159151534-fb75745f-1073-406c-b0cb-07cffced331b.gif"/>
+</div>
 
-1. 
+- 캔버스를 이용한 이미지의 영역을 선택한 후 이름지정 기능
+- 지정된 영역 이름 수정 기능
+- 지정된 영역 삭제 기능
 
 <br />
 
@@ -57,32 +69,39 @@
 <details>
   <summary>홍인열</summary>
   <ul>
-     
-
+   <li>과제2 캔버스 영역 선택 기능 구현</li>
+   <li>선택된 영역 텍스트 수정 및 삭제 기능 구현</li>
   </ul>
 </details>
 <details>
   <summary>김주영</summary>
   <ul>
-   
+ - 과제1 검색페이지 구현
+ - 검색 결과 페이지 구현 (키워드 입력 시)
+ - 반응형 레이아웃 구현
   </ul>
 </details>
 <details>
   <summary>복지호</summary>
-  <ul>
   
-  </ul>
+ - 과제1 상품코드 또는 이미지 URL 검색 결과 페이지 구현
+ - 반응형 레이아웃 구현
+ - 검색어에 따라 나타낼 데이터 매핑 (주영님과 같이)
+   - 노션 페이지 참고 (https://shorthaired-dart-17b.notion.site/5-e33bdd94e68e44a5a14dd7cabfdf5c16)
+ 
 </details>
 <details>
   <summary>우혁주</summary>
     <ul>
-    
+     <li>캔버스 & 모달창 구현</li>
+     <li>선택된 영역 텍스트 수정 및 삭제 기능 구현</li>
+     <li>인열님과 페어코딩</li>
     </ul>
 </details>
 <details>
   <summary>전용태</summary>
   <ul>
-  
+   <li>화상면접 및 코로나로 프로젝트 불참</li>
   </ul>
 </details>
 
